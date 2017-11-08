@@ -1,6 +1,6 @@
 package cosmos
 
-import . "paxi"
+import . "github.com/kellabyte/paxi"
 
 type CMD struct {
 	Cmd Command

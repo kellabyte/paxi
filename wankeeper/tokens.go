@@ -1,6 +1,6 @@
 package wankeeper
 
-import . "paxi"
+import . "github.com/kellabyte/paxi"
 
 type tokens struct {
 	tokens map[Key]bool

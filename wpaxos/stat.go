@@ -1,7 +1,7 @@
 package wpaxos
 
 import (
-	. "paxi"
+	. "github.com/kellabyte/paxi"
 	"time"
 )
 

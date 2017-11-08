@@ -2,7 +2,7 @@ package wpaxos
 
 import (
 	"fmt"
-	. "paxi"
+	. "github.com/kellabyte/paxi"
 )
 
 /**************************

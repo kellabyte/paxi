@@ -1,7 +1,7 @@
 package epaxos
 
 import (
-	. "paxi"
+	. "github.com/kellabyte/paxi"
 	"sort"
 	"time"
 )

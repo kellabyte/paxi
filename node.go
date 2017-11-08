@@ -3,7 +3,7 @@ package paxi
 import (
 	"encoding/gob"
 	"net"
-	"paxi/glog"
+	"github.com/golang/glog"
 	"strings"
 	"sync"
 )

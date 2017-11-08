@@ -2,8 +2,8 @@ package wpaxos
 
 import (
 	"encoding/gob"
-	. "paxi"
-	"paxi/glog"
+	. "github.com/kellabyte/paxi"
+	"github.com/golang/glog"
 )
 
 type Replica struct {

@@ -2,8 +2,8 @@ package epaxos
 
 import (
 	"encoding/gob"
-	. "paxi"
-	"paxi/glog"
+	. "github.com/kellabyte/paxi"
+	"github.com/golang/glog"
 )
 
 const HT_INIT_SIZE = 200000

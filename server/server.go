@@ -3,11 +3,12 @@ package main
 import (
 	"flag"
 	"log"
-	. "paxi"
-	"paxi/epaxos"
-	"paxi/kpaxos"
-	"paxi/wpaxos"
 	"strconv"
+
+	. "github.com/kellabyte/paxi"
+	"github.com/kellabyte/paxi/epaxos"
+	"github.com/kellabyte/paxi/kpaxos"
+	"github.com/kellabyte/paxi/wpaxos"
 )
 
 var configFile = flag.String("config", "config.json", "Configuration file for paxi replica. Defaults to config.json.")

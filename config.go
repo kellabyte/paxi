@@ -3,7 +3,7 @@ package paxi
 import (
 	"encoding/json"
 	"os"
-	"paxi/glog"
+	"github.com/golang/glog"
 	"strconv"
 )
 
