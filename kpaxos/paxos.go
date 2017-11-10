@@ -2,8 +2,8 @@ package kpaxos
 
 import (
 	"math/rand"
-	. "paxi"
-	"paxi/glog"
+	. "github.com/kellabyte/paxi"
+	"github.com/golang/glog"
 	"time"
 )
 

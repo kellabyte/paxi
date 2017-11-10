@@ -2,8 +2,9 @@ package cosmos
 
 import (
 	"encoding/gob"
-	. "paxi"
-	"paxi/glog"
+
+	"github.com/golang/glog"
+	. "github.com/kellabyte/paxi"
 )
 
 type Replica struct {
@@ -43,9 +44,9 @@ func (r *Replica) handleRequest(msg Request) {
 }
 
 func (r *Replica) dispatch(msg Message) {
-	switch msg := msg.(type) {
+	switch msg.(type) {
 	case CMD:
-	
+
 	case ACK:
 
 	}

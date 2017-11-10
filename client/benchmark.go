@@ -3,10 +3,12 @@ package main
 import (
 	"flag"
 	"math/rand"
-	. "paxi"
-	"paxi/glog"
 	"sync"
 	"time"
+
+	. "github.com/kellabyte/paxi"
+
+	"github.com/golang/glog"
 )
 
 var sid = flag.Int("sid", 0, "Site ID.")

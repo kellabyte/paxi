@@ -3,9 +3,10 @@ package paxi
 import (
 	"encoding/gob"
 	"net"
-	"paxi/glog"
 	"sync"
 	"time"
+
+	"github.com/golang/glog"
 )
 
 type Client struct {

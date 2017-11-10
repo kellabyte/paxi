@@ -5,9 +5,10 @@ import (
 	"flag"
 	"log"
 	"net"
-	"paxi"
 	"strconv"
 	"strings"
+
+	"github.com/kellabyte/paxi"
 )
 
 var n = flag.Int("n", 1, "N number of replicas, default value 1.")

@@ -2,7 +2,7 @@ package epaxos
 
 import (
 	"fmt"
-	. "paxi"
+	. "github.com/kellabyte/paxi"
 )
 
 type Prepare struct {

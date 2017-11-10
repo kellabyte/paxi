@@ -2,7 +2,7 @@ package wankeeper
 
 import (
 	"fmt"
-	. "paxi"
+	. "github.com/kellabyte/paxi"
 )
 
 /**************************

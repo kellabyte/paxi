@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	"math/rand"
-	. "paxi"
-	"paxi/glog"
+	. "github.com/kellabyte/paxi"
+	"github.com/golang/glog"
 	"testing"
 	"time"
 )

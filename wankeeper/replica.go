@@ -2,8 +2,9 @@ package wankeeper
 
 import (
 	"encoding/gob"
-	. "paxi"
-	"paxi/glog"
+
+	"github.com/golang/glog"
+	. "github.com/kellabyte/paxi"
 )
 
 type Replica struct {
@@ -44,7 +45,7 @@ func (r *Replica) messageLoop() {
 			r.handleRequest(msg)
 
 		case msg := <-r.MessageChan:
-			switch msg := msg.(type) {
+			switch msg.(type) {
 			case NewLeader:
 
 			case Vote:
